@@ -1,0 +1,21 @@
+/output
+/gift-codes
+/gift-cards
+
+# Python 3
+__pycache__
+.mypy_cache/
+*.pyc
+
+# venv
+/venv
+/bin
+/include
+lib
+
+#pycharm
+/.idea
+
+.DS_Store
+*.xlsx
+*.pdf

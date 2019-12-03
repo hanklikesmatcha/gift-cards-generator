@@ -88,7 +88,10 @@ class A5Portrait():
             pdf.add_page()
             pdf.add_font('Raleway', '', r'./font/Raleway-SemiBold.ttf', uni=True)
             pdf.set_font(family='Raleway', size=12)
-            pdf.text(59, 259.8, code)
+            # TODO: setting for Kiwi Bank
+            pdf.set_text_color(0, 61, 54)
+            pdf.text(59, 259.5, code)
+            # pdf.text(59, 259.8, code)
             pdf.output('./gift-codes/a5-portrait/gift-code-{}.pdf'.format(code))
 
     def create_cards(self, input_pdf, output_pdf, watermark_pdf):

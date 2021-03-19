@@ -3,7 +3,7 @@ fpdf==1.7.2
 Gooey==1.0.4.0.0.0
 numpy==1.17.2
 pdf2image==1.14.0
-Pillow==8.0.0
+Pillow==8.1.1
 psutil==5.7.2
 PyPDF2==1.26.0
 six==1.15.0

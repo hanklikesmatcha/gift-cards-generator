@@ -1,3 +1,7 @@
+# Introduction 
+This is a tool to help [The Good Registry](https://thegoodregistry.com/) to handle bulk orders. First, it was for [Kiwibank](https://www.kiwibank.co.nz/personal-banking/). Now it's used in every large amount orders.
+
+# Demo
 <img src="ScreenRecording.gif" width="700">
 
 # Install Python
